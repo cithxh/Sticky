@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@font-face {
+    font-family: "Josefin Sans";
+    src: url(../font/JosefinSans-Italic-VariableFont_wght);
+}
+@font-face {
+    font-family: "Pacifico";
+    src: url(../font/Gwendolyn-Bold);
+}
+@font-face {
+    font-family: "Redes";
+    src: url(../font/BubblerOne-Regular.ttf);
+}
+@font-face {
+    font-family: "Grunge";
+    src: url(../font/Grunge-Social-Media.ttf);
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #997f79;
+}
+
+#inicio {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    position: relative;
+}
+#titulos {
+    width: 100%;
+    height: 80vh;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    font-size: 70px;
+}
+
+#titulos {
+    background: url(../Sticky/imagenes/camaronessssssssssssssssss.webp) no-repeat 30% 30%;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 30px;
+}
+h1 {
+    font-family: 'Josefin Sans';
+    background-color: rgba(218, 115, 115, 0.8);
+}
+
+section{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    height: 20%;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    background-color: #a12020;
+    color: #fff;
+    padding: 20px;
+}
+nav {
+    background-color: #310707;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-align: right;
+}
+nav ul li a:hover {
+    color: rgb(217, 255, 0);
+    font-weight: bolder;
+}
+
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sticky {
+    position: sticky;
+    top: 10px;
+    z-index: 0;
+    width: 50px;
+}
+.sticky.cebolla {
+    z-index: 6;
+}
+.sticky.especias {
+    z-index: 5;
+}
+.sticky.camarones {
+    z-index: 4;
+}
+.sticky.caldo {
+    z-index: 3;
+}
+.sticky.plato {
+    z-index: 2;
+    
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer {
+    text-align: center;
+    background-color: #d1d1d1;
+    color: #fff;
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
